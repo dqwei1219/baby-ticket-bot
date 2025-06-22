@@ -1,0 +1,16 @@
+# Default configuration for ticket bot
+
+browser:
+  headless: false  # Set to true for production
+  timeout: 30000
+  viewport_width: 1920
+  viewport_height: 1080
+
+performance:
+  max_concurrent_sessions: 10
+  max_retries: 3
+  retry_delay: 1.0
+
+logging:
+  level: INFO
+  format: json
