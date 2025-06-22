@@ -7,6 +7,7 @@
 5. A robust error handling and retry mechanism for dealing with real-world failures
 
 # System Architecture
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                         Control Center                          │
 │  (Configuration, Monitoring, Strategy Management)               │
@@ -33,3 +34,4 @@
                       │   Data Storage    │
                       │  (Redis + SQLite) │
                       └───────────────────┘
+```
